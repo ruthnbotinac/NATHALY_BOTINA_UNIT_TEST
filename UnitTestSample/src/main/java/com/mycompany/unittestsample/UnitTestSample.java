@@ -41,7 +41,9 @@ public class UnitTestSample {
                 }else{
                     System.out.println(secondDivisbleNumber + "is not divisible into " + firstDivisbleNumber);
                 }
-                
+                break;
+            case "12":
+                System.out.println("Commit in a new branch");
                 break;
             default:
                 throw new AssertionError();
