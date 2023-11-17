@@ -42,8 +42,10 @@ public class UnitTestSample {
                     System.out.println(secondDivisbleNumber + "is not divisible into " + firstDivisbleNumber);
                 }
                 break;
-            case "12":
+            case "15":
                System.out.println("This is a test of one merge");
+              case "5":
+              System.out.println("Ojala no explote"); 
             default:
                 throw new AssertionError();
         }
