@@ -23,8 +23,10 @@ public class UnitTestSample {
         String userResult = in.next();
         
         switch (userResult) {
-            case "1":
+            case "18":
                 System.out.println("Type an integer number");
+                System.out.println("Type an integer number2");
+                System.out.println("Type an integer number3");
                 String userNumber = in.next();
                 int userNumberInt = Integer.parseInt(userNumber);
                 int nextResult = Operations.NextNumber(userNumberInt);
