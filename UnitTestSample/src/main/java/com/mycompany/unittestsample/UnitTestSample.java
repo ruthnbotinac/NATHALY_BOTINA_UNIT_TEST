@@ -48,6 +48,8 @@ public class UnitTestSample {
             case "5":
               System.out.println("This is a test of one merge");
               break;
+            case "13":
+              System.out.println("This is a test of one merge");
             default:
                 throw new AssertionError();
         }
