@@ -1,8 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.unittestsample;
+
 import java.util.Scanner;
 import com.mycompany.unittestsample.Operations;
 
@@ -13,7 +13,7 @@ import com.mycompany.unittestsample.Operations;
 public class UnitTestSample {
 
     public static void main(String[] args) {
-        
+
         System.out.println("Select one of the options below");
         System.out.println("1. Add next number");
         System.out.println("10. Based two numbers return devisible");
@@ -21,9 +21,17 @@ public class UnitTestSample {
         //Ejercicio 4
         Scanner in = new Scanner(System.in);
         String userResult = in.next();
-        
+
         switch (userResult) {
-            case "18":
+            case "1028":
+                /*
+    
+    Camilo Mora estuvo aquí
+    
+                 */
+                System.out.println("Type an integer number");
+                System.out.println("Type an integer number");
+                System.out.println("Type an integer number");
                 System.out.println("Type an integer number");
                 System.out.println("Type an integer number2");
                 System.out.println("Type an integer number3");
@@ -38,19 +46,20 @@ public class UnitTestSample {
                 System.out.println("Type a second integer number---");
                 String secondDivisbleNumber = in.next();
                 boolean result = Operations.IsDivisible(Integer.parseInt(firstDivisbleNumber), Integer.parseInt(secondDivisbleNumber));
-                if(result){
+                if (result) {
                     System.out.println(secondDivisbleNumber + "is divisible into " + firstDivisbleNumber);
-                }else{
+                } else {
                     System.out.println(secondDivisbleNumber + "is not divisible into " + firstDivisbleNumber);
                 }
                 break;
             case "12":
-               System.out.println("This is a test of one merge");
+                System.out.println("This is a test of one merge");
             case "13":
-              System.out.println("This is a test of one merge");
+                System.out.println("This is a test of one merge");
             default:
                 throw new AssertionError();
         }
-        
+
     }
+
 }
