@@ -23,7 +23,12 @@ public class UnitTestSample {
         String userResult = in.next();
         
         switch (userResult) {
-            case "1":
+            case "102":
+                    /*
+    
+    Camilo Mora estuvo aquí
+    
+    */
                 System.out.println("Type an integer number");
                 String userNumber = in.next();
                 int userNumberInt = Integer.parseInt(userNumber);
@@ -51,4 +56,5 @@ public class UnitTestSample {
         }
         
     }
+
 }
