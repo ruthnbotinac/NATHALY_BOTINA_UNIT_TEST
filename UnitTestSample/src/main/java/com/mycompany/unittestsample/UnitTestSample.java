@@ -44,6 +44,10 @@ public class UnitTestSample {
                 break;
             case "12":
                System.out.println("This is a test of one merge");
+               break;
+            
+            case "26":
+                System.out.println("Case created by Santiago Pulido");
             default:
                 throw new AssertionError();
         }
