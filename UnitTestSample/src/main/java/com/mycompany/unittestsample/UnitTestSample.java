@@ -33,9 +33,9 @@ public class UnitTestSample {
                 System.out.println(nextResult);
                 break;
             case "10":
-                System.out.println("Type an integer number");
-                String firstDivisbleNumber = in.next();
-                System.out.println("Type a second integer number");
+                System.out.println("Type an integer number ----");
+                String firstDivisbleNumber = in.next(); //Comments
+                System.out.println("Type a second integer number---");
                 String secondDivisbleNumber = in.next();
                 boolean result = Operations.IsDivisible(Integer.parseInt(firstDivisbleNumber), Integer.parseInt(secondDivisbleNumber));
                 if(result){
