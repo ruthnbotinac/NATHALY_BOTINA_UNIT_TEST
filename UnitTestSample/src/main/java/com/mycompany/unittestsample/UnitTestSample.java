@@ -3,6 +3,7 @@
  */
 
 package com.mycompany.unittestsample;
+
 import java.util.Scanner;
 import com.mycompany.unittestsample.Operations;
 
@@ -13,15 +14,15 @@ import com.mycompany.unittestsample.Operations;
 public class UnitTestSample {
 
     public static void main(String[] args) {
-        
+
         System.out.println("Select one of the options below");
         System.out.println("1. Add next number");
         System.out.println("10. Based two numbers return devisible");
-        //Ejercicio 2
-        //Ejercicio 4
+        // Ejercicio 2
+        // Ejercicio 4
         Scanner in = new Scanner(System.in);
         String userResult = in.next();
-        
+
         switch (userResult) {
             case "1":
                 System.out.println("Type an integer number");
@@ -35,21 +36,24 @@ public class UnitTestSample {
                 String firstDivisbleNumber = in.next();
                 System.out.println("Type a second integer number");
                 String secondDivisbleNumber = in.next();
-                boolean result = Operations.IsDivisible(Integer.parseInt(firstDivisbleNumber), Integer.parseInt(secondDivisbleNumber));
-                if(result){
+                boolean result = Operations.IsDivisible(Integer.parseInt(firstDivisbleNumber),
+                        Integer.parseInt(secondDivisbleNumber));
+                if (result) {
                     System.out.println(secondDivisbleNumber + "is divisible into " + firstDivisbleNumber);
-                }else{
+                } else {
                     System.out.println(secondDivisbleNumber + "is not divisible into " + firstDivisbleNumber);
                 }
                 break;
             case "13":
-               System.out.println("This is a test of one merge");
-               break;
+                System.out.println("This is a test of one merge");
+                break;
             case "19":
                 System.out.println("Prueba ^_~");
+            case "14":
+                System.out.println("This is a test of one merge");
             default:
                 throw new AssertionError();
         }
-        
+
     }
 }
