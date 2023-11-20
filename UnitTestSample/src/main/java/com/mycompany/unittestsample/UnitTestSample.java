@@ -48,6 +48,9 @@ public class UnitTestSample {
                System.out.println("This is a test of one merge");
             case "13":
               System.out.println("This is a test of one merge");
+            
+            case "17":
+                System.out.println("This is a test of pull request ManuelG.");
             default:
                 throw new AssertionError();
         }
