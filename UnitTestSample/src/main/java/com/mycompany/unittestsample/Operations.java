@@ -18,4 +18,30 @@ public class Operations {
         int moduleResult = secondNumber % firstNumber;
         return moduleResult == 0;
     }
+
+    public static int randomNumer(int n) {
+
+        int n30 = (int) (n + (n * 0.3));
+
+        return n30;
+    }
+
+    public static int sumOfDigits(String digits) {
+        int suma = 0;
+
+        char[] aux = digits.toCharArray();
+
+        System.out.println("Cadena: " + digits);
+
+
+
+        for (char i : aux) {
+            String str = Character.toString(i);
+            suma+=Integer.parseInt(str);
+        }
+
+        // System.out.println("Suma total: "+suma);
+        return suma;
+    }
+
 }
